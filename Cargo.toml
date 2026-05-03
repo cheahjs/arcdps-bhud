@@ -12,8 +12,10 @@ bincode = "1.3.3"
 log = "0.4.21"
 
 [dependencies.arcdps]
-version = "0.11.2"
-features = ["serde"]
+git = "https://github.com/greaka/arcdps_bindings.git"
+branch = "fake-1.92.7"
+default-features = false
+features = ["serde", "log"]
 
 [dependencies.serde]
 version = "1.0.203"
